@@ -1,0 +1,58 @@
+---
+title: "Extending EJ GIS with Decentralized, Open, & Community Engaged Design"
+format:
+  revealjs: 
+    theme: dark
+editor: visual
+---
+
+## **Author Team**
+
+Marynia Kolak^1^, Jack Lia^1^, Jose Alavez^1^, Sara Lambert^2^, Adam Cox^1^, Susan Paykin^3^, Winifred Curran^4^, Michelle Stuhlmacher^4^
+
+::: aside
+^1^ Healthy Regions & Policies Lab, Department of Geography & GIScience, UIUC
+
+^2^ National Center for Supercomputing Applications, UIUC
+
+^3^ Data Science Institute, University of Chicago
+
+^4^ Department of Geography, DePaul University
+:::
+
+## Introduction
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Background
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+## **Gaps, challenges, and critiques in current EJ GIS toollandscape**
+
+*Fusi et al 2022:*
+
+-   30 states had lack of definition of EJ community
+
+-   Half of all states utilize ArcGIS
+
+-   42% of states did not have health outcome data
+
+-   56% of states had low data accessibility for EJ open government data
+
+## **Resistance & Representations**
+
+-   Both governmental and industry oppositions to screening tools (Zrzavy et al. 2022)
+
+-   Indigenous inclusion and representation (Mullen et al. 2023, Faust 2021)
+
+-   Rural representation (Williams et al. 2022, Faust et al. 2021)
+
+-   How vulnerable communities are identified, ex. thresholds (Huynh et al 2024)
+
+-   Race and racism as a factor (Bompoti et al. 2024, Lee 2021)
+
+-   Data Accessibility and Data Quality (Fusi et al, Boda et al, Maantay et al, Nost et al. 2022, Sadd et al. 2015).
