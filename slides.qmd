@@ -1,5 +1,5 @@
 ---
-title: "Extending EJ GIS with Decentralized, Open, & Community Engaged Design"
+title: "Extending EJ GIS with Decentralized, Open, & Community-Centered Design"
 format:
   revealjs: 
     theme: dark
@@ -45,14 +45,20 @@ When you click the **Render** button a presentation will be generated that inclu
 
 ## **Resistance & Representations**
 
--   Both governmental and industry oppositions to screening tools (Zrzavy et al. 2022)
+-   Governmental & industry oppositions to screening tools^1^
 
--   Indigenous inclusion and representation (Mullen et al. 2023, Faust 2021)
+-   Indigenous inclusion and representation^2^
 
--   Rural representation (Williams et al. 2022, Faust et al. 2021)
+-   Rural representation^3^
 
--   How vulnerable communities are identified, ex. thresholds (Huynh et al 2024)
+-   How vulnerable communities are identified, ex. thresholds^4^
 
--   Race and racism as a factor (Bompoti et al. 2024, Lee 2021)
+-   Race and racism as a factor^5^
 
--   Data Accessibility and Data Quality (Fusi et al, Boda et al, Maantay et al, Nost et al. 2022, Sadd et al. 2015).
+-   Data Accessibility and Data Quality^6^
+
+::: aside
+
+^1^ Zrzavy et al. 2022; ^2^ Mullen et al. 2023, Faust 2021; ^3^ Williams et al. 2022, Faust et al. 2021; ^4^ Huynh et al 2024; ^5^ Bompoti et al. 2024, Lee 2021; ^6^ Fusi et al, Boda et al, Maantay et al, Nost et al. 2022, Sadd et al. 2015
+
+:::
