@@ -8,7 +8,7 @@ editor: visual
 
 Marynia Kolak, PhD, MFA, MS,\
 Department of Geography & GIScience, UIUC\
-IMGS 2024 at Atlanta, Georgia
+IMGS 2024 at Atlanta, Georgia 🎩 🎣 🍋\
 
 ![](images/herop.png){style="float: right" width="150"}\
 
@@ -31,7 +31,7 @@ Index goals can vary. So should your methodology.
 -   Scientists hypothesizing SDOH as a moderator in model
 -   Population spatial sampling for a randomized control trial
 
-## Conceptually-Driven Indices
+## 🎩 Conceptually-Driven Indices
 
 Input variables & Standardize. Apply Weights. Sum or Multiply.
 
@@ -80,7 +80,7 @@ This index included summed, standardized scores of the following domains:
 :::
 :::
 
-## Data-Driven Indices
+## 🎣 Data-Driven Indices
 
 Input variables. Run model(s). Derive index(ices) from output.
 
