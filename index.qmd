@@ -107,6 +107,14 @@ Input variables. Run model(s). Derive index(ices) from output.
 
 ![Mapped SDOH Indices from Kolak, M., Bhatt, J., Park, Y. H., Padrón, N. A., & Molefe, A. (2020). Quantification of neighborhood-level social determinants of health in the continental United States. *JAMA network open*, 3(1), e1919928-e1919928.](index-img/sdoh.png)
 
+## What Keeps Us Up at Night
+
+![](index-img/multicollinearity.jpg)
+
+## When Using an Index
+
+![](index-img/regress.jpg)
+
 ## Spatial Scale & Geographer's Lament  
 
 -   State and National-level comparison groups:
