@@ -1,10 +1,16 @@
 ---
-title: "Motivations & Methods for Index Building"
-author: "Marynia Kolak, PhD, MFA, MS"
 format:
   revealjs
 editor: visual
 ---
+
+# Method Motivations & Limitations in Index Building for Health
+
+Marynia Kolak, PhD, MFA, MS,\
+Department of Geography & GIScience, UIUC\
+IMGS 2024 at Atlanta, Georgia
+
+![](images/herop.png){style="float: right" width="150"}\
 
 ## What's the purpose of the index?
 
@@ -29,7 +35,7 @@ Index goals can vary. So should your methodology.
 
 Input variables & Standardize. Apply Weights. Sum or Multiply.
 
--   CDC's Social Vulnerability Index
+-   CDC/ATSDR Social Vulnerability Index
 -   CDC/ATSDR Environmental Justice Index
 
 **Pros & Pitfalls**
@@ -38,7 +44,7 @@ Input variables & Standardize. Apply Weights. Sum or Multiply.
 
 -   Outcome highly sensitive to weighting selected
 
--   Captures *theorized importance*; may not reflect actual underlying processes
+-   Models [***theorized** importance*]{.underline}; may not reflect actual underlying processes
 
 ## The **Social Vulnerability Index**
 
@@ -57,7 +63,7 @@ Input variables & Standardize. Apply Weights. Sum or Multiply.
 By Williams, L.D., Kolak, M., Villanueva, C. et al. Creation and Validation of a New Socio-built Environment Index Measure of Opioid Overdose Risk for Use in Both Non-urban and Urban Settings. J Urban Health 100, 1048--1061 (2023). https://doi.org/10.1007/s11524-023-00754-7
 :::
 
-::: {.column width="50%" style="font-size: 16pt;"}
+::: {.column width="30%" style="font-size: 20pt;"}
 This index included summed, standardized scores of the following domains:
 
 -   Commercial Environment
@@ -66,10 +72,59 @@ This index included summed, standardized scores of the following domains:
 
 -   Physical Environment
 
--   Community Participation and Social Interaction
+-   Community Participation & Social Interaction
 
 -   Health Services, and
 
 -   Community Economic Engagement
 :::
 :::
+
+## Data-Driven Indices
+
+Input variables. Run model(s). Derive index(ices) from output.
+
+-   Areal Deprivation Index (via HRSA, extended by Kind et al)
+-   Van Handel's HCV/HIV Vulnerability Index
+
+**Pros & Pitfalls**
+
+-   May uncover expected & unexpected associations due to underlying variation across variables
+
+-   Interpretation may be challenging, and may not be generalizable
+
+-   Sensitive to input data and methodology
+
+## Areal Deprivation Index
+
+![Principal Component Analysis-Driven Approach at the ***block group scale***, by Kind AJH, Buckingham W. Making Neighborhood Disadvantage Metrics Accessible: The Neighborhood Atlas. New England Journal of Medicine, 2018. 378: 2456-2458. DOI: 10.1056/NEJMp1802313. PMCID: PMC6051533.](images/adi.png)
+
+## CHCV/HIV Vulnerability Index
+
+![Multi-step approach to identify counties with greatest vulnerability to rapid dissemination of injection drug use-associated HIV infection, if introduced, and new or continued Hepatitis C virus infections. From Van Handel, M. M., Rose, C. E., Hallisey, E. J., Kolling, J. L., Zibbell, J. E., Lewis, B., \... & Brooks, J. T. (2016). County-level vulnerability assessment for rapid dissemination of HIV or HCV infections among persons who inject drugs, United States. *JAIDS Journal of Acquired Immune Deficiency Syndromes*, *73*(3), 323-331.](index-img/handel.jpg)
+
+## US SDOH Multidimensional Indices 
+
+![Mapped SDOH Indices from Kolak, M., Bhatt, J., Park, Y. H., Padrón, N. A., & Molefe, A. (2020). Quantification of neighborhood-level social determinants of health in the continental United States. *JAMA network open*, 3(1), e1919928-e1919928.](index-img/sdoh.png)
+
+## Spatial Scale & Geographer's Lament  
+
+-   State and National-level comparison groups:
+
+    -   Southern Illinois vs St Louis vs Chicago
+
+    -   Impact of borders on outcomes, and distance thresholds
+
+    -   Utility of understanding state- and county-policies
+
+```{=html}
+<!-- -->
+```
+-   County-level indices will have limitations on interpretation at local scales.
+
+```{=html}
+<!-- -->
+```
+-   More local isn't always better: ACS block group margin of error are unstable and not recommended for analysis
+
+# You can't squeeze out more than you put in. 🍋

@@ -9,8 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.335">
 
-  <meta name="author" content="Marynia Kolak, PhD, MFA, MS">
-  <title>Motivations &amp; Methods for Index Building</title>
+  <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,17 +322,15 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Motivations &amp; Methods for Index Building</h1>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Marynia Kolak, PhD, MFA, MS 
-</div>
-</div>
-</div>
-
+<section>
+<section id="method-motivations-limitations-in-index-building-for-health" class="title-slide slide level1 center">
+<h1>Method Motivations &amp; Limitations in Index Building for Health</h1>
+<p>Marynia Kolak, PhD, MFA, MS,<br>
+Department of Geography &amp; GIScience, UIUC<br>
+IMGS 2024 at Atlanta, Georgia</p>
+<p><img data-src="images/herop.png" style="float: right" width="150"><br>
+</p>
 </section>
 <section id="whats-the-purpose-of-the-index" class="slide level2">
 <h2>What’s the purpose of the index?</h2>
@@ -361,14 +358,14 @@ Marynia Kolak, PhD, MFA, MS
 <h2>Conceptually-Driven Indices</h2>
 <p>Input variables &amp; Standardize. Apply Weights. Sum or Multiply.</p>
 <ul>
-<li>CDC’s Social Vulnerability Index</li>
+<li>CDC/ATSDR Social Vulnerability Index</li>
 <li>CDC/ATSDR Environmental Justice Index</li>
 </ul>
 <p><strong>Pros &amp; Pitfalls</strong></p>
 <ul>
 <li><p>Facilitates criteria-based decision-making</p></li>
 <li><p>Outcome highly sensitive to weighting selected</p></li>
-<li><p>Captures <em>theorized importance</em>; may not reflect actual underlying processes</p></li>
+<li><p>Models <u><em><strong>theorized</strong> importance</em></u>; may not reflect actual underlying processes</p></li>
 </ul>
 </section>
 <section id="the-social-vulnerability-index" class="slide level2">
@@ -385,18 +382,66 @@ Marynia Kolak, PhD, MFA, MS
 <div class="column" style="font-size: 10pt;">
 <p><img data-src="index-img/nj.png" alt="Index integrated Commercial Environment, Residential Environment, Physical Environment, Community Participation and Social Interaction, Health Services, and Community Economic&nbsp;Engagement. By Williams, L.D., Kolak, M., Villanueva, C. et al. Creation and Validation of a New Socio-built Environment Index Measure of Opioid Overdose Risk for Use in Both Non-urban and Urban Settings. J Urban Health 100, 1048–1061 (2023). https://doi.org/10.1007/s11524-023-00754-7"></p>
 <p>By Williams, L.D., Kolak, M., Villanueva, C. et al.&nbsp;Creation and Validation of a New Socio-built Environment Index Measure of Opioid Overdose Risk for Use in Both Non-urban and Urban Settings. J Urban Health 100, 1048–1061 (2023). https://doi.org/10.1007/s11524-023-00754-7</p>
-</div><div class="column" style="font-size: 16pt;">
+</div><div class="column" style="font-size: 20pt;">
 <p>This index included summed, standardized scores of the following domains:</p>
 <ul>
 <li><p>Commercial Environment</p></li>
 <li><p>Residential Environment</p></li>
 <li><p>Physical Environment</p></li>
-<li><p>Community Participation and Social Interaction</p></li>
+<li><p>Community Participation &amp; Social Interaction</p></li>
 <li><p>Health Services, and</p></li>
 <li><p>Community Economic Engagement</p></li>
 </ul>
 </div>
 </div>
+</section>
+<section id="data-driven-indices" class="slide level2">
+<h2>Data-Driven Indices</h2>
+<p>Input variables. Run model(s). Derive index(ices) from output.</p>
+<ul>
+<li>Areal Deprivation Index (via HRSA, extended by Kind et al)</li>
+<li>Van Handel’s HCV/HIV Vulnerability Index</li>
+</ul>
+<p><strong>Pros &amp; Pitfalls</strong></p>
+<ul>
+<li><p>May uncover expected &amp; unexpected associations due to underlying variation across variables</p></li>
+<li><p>Interpretation may be challenging, and may not be generalizable</p></li>
+<li><p>Sensitive to input data and methodology</p></li>
+</ul>
+</section>
+<section id="areal-deprivation-index" class="slide level2">
+<h2>Areal Deprivation Index</h2>
+
+<img data-src="images/adi.png" class="r-stretch quarto-figure-center"><p class="caption">Principal Component Analysis-Driven Approach at the <strong><em>block group scale</em></strong>, by Kind AJH, Buckingham W. Making Neighborhood Disadvantage Metrics Accessible: The Neighborhood Atlas. New England Journal of Medicine, 2018. 378: 2456-2458. DOI: 10.1056/NEJMp1802313. PMCID: PMC6051533.</p></section>
+<section id="chcvhiv-vulnerability-index" class="slide level2">
+<h2>CHCV/HIV Vulnerability Index</h2>
+
+<img data-src="index-img/handel.jpg" class="r-stretch quarto-figure-center"><p class="caption">Multi-step approach to identify counties with greatest vulnerability to rapid dissemination of injection drug use-associated HIV infection, if introduced, and new or continued Hepatitis C virus infections. From Van Handel, M. M., Rose, C. E., Hallisey, E. J., Kolling, J. L., Zibbell, J. E., Lewis, B., ... &amp; Brooks, J. T. (2016). County-level vulnerability assessment for rapid dissemination of HIV or HCV infections among persons who inject drugs, United States. <em>JAIDS Journal of Acquired Immune Deficiency Syndromes</em>, <em>73</em>(3), 323-331.</p></section>
+<section id="us-sdoh-multidimensional-indices" class="slide level2">
+<h2>US SDOH Multidimensional Indices</h2>
+
+<img data-src="index-img/sdoh.png" class="r-stretch quarto-figure-center"><p class="caption">Mapped SDOH Indices from Kolak, M., Bhatt, J., Park, Y. H., Padrón, N. A., &amp; Molefe, A. (2020). Quantification of neighborhood-level social determinants of health in the continental United States. <em>JAMA network open</em>, 3(1), e1919928-e1919928.</p></section>
+<section id="spatial-scale-geographers-lament" class="slide level2">
+<h2>Spatial Scale &amp; Geographer’s Lament</h2>
+<ul>
+<li><p>State and National-level comparison groups:</p>
+<ul>
+<li><p>Southern Illinois vs St Louis vs Chicago</p></li>
+<li><p>Impact of borders on outcomes, and distance thresholds</p></li>
+<li><p>Utility of understanding state- and county-policies</p></li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li>County-level indices will have limitations on interpretation at local scales.</li>
+</ul>
+<!-- -->
+<ul>
+<li>More local isn’t always better: ACS block group margin of error are unstable and not recommended for analysis</li>
+</ul>
+</section></section>
+<section id="you-cant-squeeze-out-more-than-you-put-in." class="title-slide slide level1 center">
+<h1>You can’t squeeze out more than you put in. 🍋</h1>
 <div class="footer footer-default">
 
 </div>
