@@ -1,0 +1,75 @@
+---
+title: "Motivations & Methods for Index Building"
+author: "Marynia Kolak, PhD, MFA, MS"
+format:
+  revealjs
+editor: visual
+---
+
+## What's the purpose of the index?
+
+Index goals can vary. So should your methodology.
+
+-   Reducing dimensions from many to one components
+-   Developing a new variable for a regression models
+-   Targeting localities for place-based interventions
+-   Getting a regional overview of some phenomenon
+-   Inform decision-making in resource-deprived settings
+
+## The audience can & should change your methods approach.
+
+-   City or regional planners assessing places for improvement
+-   Clinic identifying blocks to target health promotion
+-   Community residents identifying places for tree planting.
+-   National hospital group seeking baseline of critical topic
+-   Scientists hypothesizing SDOH as a moderator in model
+-   Population spatial sampling for a randomized control trial
+
+## Conceptually-Driven Indices
+
+Input variables & Standardize. Apply Weights. Sum or Multiply.
+
+-   CDC's Social Vulnerability Index
+-   CDC/ATSDR Environmental Justice Index
+
+**Pros & Pitfalls**
+
+-   Facilitates criteria-based decision-making
+
+-   Outcome highly sensitive to weighting selected
+
+-   Captures *theorized importance*; may not reflect actual underlying processes
+
+## The **Social Vulnerability Index**
+
+![The original SVI index and database was published by: Flanagan, B. E., Gregory, E. W., Hallisey, E. J., Heitgerd, J. L., & Lewis, B. (2011). A social vulnerability index for disaster management. *Journal of homeland security and emergency management*, *8*(1), 0000102202154773551792.](index-img/svi.png)
+
+## The **Environmental Justice Index**
+
+![EJI Model. From: Centers for Disease Control and Prevention and Agency for Toxic Substances Disease Registry. 2022 Environmental Justice Index. Accessed 2024-07-14. https://www.atsdr.cdc.gov/placeandhealth/eji/index.html](index-img/eji.png)
+
+## NJ Social & Built Environment Index
+
+::: columns
+::: {.column width="50%" style="font-size: 10pt;"}
+![](index-img/nj.png){alt="Index integrated Commercial Environment, Residential Environment, Physical Environment, Community Participation and Social Interaction, Health Services, and Community Economic Engagement. By Williams, L.D., Kolak, M., Villanueva, C. et al. Creation and Validation of a New Socio-built Environment Index Measure of Opioid Overdose Risk for Use in Both Non-urban and Urban Settings. J Urban Health 100, 1048–1061 (2023). https://doi.org/10.1007/s11524-023-00754-7"}
+
+By Williams, L.D., Kolak, M., Villanueva, C. et al. Creation and Validation of a New Socio-built Environment Index Measure of Opioid Overdose Risk for Use in Both Non-urban and Urban Settings. J Urban Health 100, 1048--1061 (2023). https://doi.org/10.1007/s11524-023-00754-7
+:::
+
+::: {.column width="50%" style="font-size: 16pt;"}
+This index included summed, standardized scores of the following domains:
+
+-   Commercial Environment
+
+-   Residential Environment
+
+-   Physical Environment
+
+-   Community Participation and Social Interaction
+
+-   Health Services, and
+
+-   Community Economic Engagement
+:::
+:::
