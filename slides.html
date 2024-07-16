@@ -6,10 +6,10 @@
 <script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.335">
 
-  <title>Extending EJ GIS with Decentralized, Open, &amp; Community-Centered Design</title>
+  <title>slides</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -318,19 +318,13 @@
     }
   </style>
 </head>
-<body class="quarto-dark">
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Extending EJ GIS with Decentralized, Open, &amp; Community-Centered Design</h1>
 
-<div class="quarto-title-authors">
-</div>
-
-</section>
-<section id="author-team" class="slide level2">
-<h2><strong>Author Team</strong></h2>
+<section id="integrating-chicago-ej-data-researchers-and-communities-with-decentralized-web-architecture-open-gis-participatory-design" class="slide level2">
+<h2><strong>Integrating Chicago EJ Data, Researchers, and Communities with Decentralized Web Architecture, Open GIS, &amp; Participatory Design</strong></h2>
 <p>Marynia Kolak<sup>1</sup>, Jack Lia<sup>1</sup>, Jose Alavez<sup>1</sup>, Sara Lambert<sup>2</sup>, Adam Cox<sup>1</sup>, Susan Paykin<sup>3</sup>, Winifred Curran<sup>4</sup>, Michelle Stuhlmacher<sup>4</sup></p>
 
 <aside><div>
@@ -377,8 +371,8 @@
 </div>
 </div>
 </section>
-<section id="gaps-challenges-and-critiques-in-current-ej-gis-tool-landscape" class="slide level2">
-<h2><strong>Gaps, challenges, and critiques in current EJ GIS tool landscape</strong></h2>
+<section id="challenges-critiques-in-current-ej-tool-landscape" class="slide level2">
+<h2><strong>Challenges &amp; critiques in current EJ tool landscape</strong></h2>
 <p><em>Fusi et al 2022:</em></p>
 <ul>
 <li><p>30 states had lack of definition of EJ community</p></li>
@@ -410,14 +404,6 @@
 </ul>
 <p>Modern web design using <u>service-oriented architecture</u>, free and/or <u>open GIS</u> tools, and <u>distributed data stream integration</u> can be adapted to break free of many of these technical (and some of the “people”) restrictions.</p>
 </section>
-<section id="defining-terms" class="slide level2">
-<h2><strong>Defining Terms</strong></h2>
-<ul>
-<li><p><u>Service-oriented architecture</u>: collection of smaller, moderately coupled services versus one single, unified application</p></li>
-<li><p><u>Open GIS</u>: opensource applications make their source code freely available, and may include: mapping, spatial data wrangling, and/or complete GISystems &amp; services</p></li>
-<li><p><u>Distributed data stream integration:</u> data may be ingested from multiple sources dynamically</p></li>
-</ul>
-</section>
 <section id="chives-a-chicago-ej-application" class="slide level2">
 <h2><strong>ChiVes: A Chicago EJ Application</strong></h2>
 <p>A mapping &amp; data collaborative linking dozens of environmental and socioeconomic indicators at the neighborhood level in Chicago with 2 main goals:</p>
@@ -425,13 +411,26 @@
 <li>Integrate Data &amp; Insights from Existing Environment + Air Quality Projects</li>
 <li>Enable Community Better Access, Use, and Generated Insights from the Data</li>
 </ol>
-<p>It includes an interactive map with dynamic filter; community snapshots; and, a growing resource guide linking other relevant maps and resources.</p>
-<p>Integrated/refactored as a new application in 2022, pieced from prior projects.</p>
+<p>With a new tech approach, can we do EJ work better?</p>
+<h4 id="refactored-as-a-new-application-in-2022-pieced-from-prior-projects.-funded-in-late-2022-with-support-from-nasa-and-depaul-collaboration.">Refactored as a new application in 2022, pieced from prior projects. Funded in late 2022 with support from NASA and DePaul collaboration.</h4>
+</section>
+<section id="dynamic-data-integration" class="slide level2">
+<h2>Dynamic Data Integration</h2>
+<p><strong>Adding data using central standards:</strong></p>
+<ul>
+<li><p><u>Contributors</u>: Aggregate to tract level, add (non-spatial) content to a Google Sheet. Write metadata using a template. Submit a Google Form.</p></li>
+<li><p><u>Tech team:</u> Review, integrate using a Google Sheet. Re-build app.</p></li>
+</ul>
+<p><strong>Access data viz with map or community snapshots, or:</strong></p>
+<ul>
+<li><p>Download as a CSV, Shapefile, or GeoJSON</p></li>
+<li><p>Data dictionary and detailed metadata on site</p></li>
+</ul>
 </section>
 <section id="chives-data-surface-temperature" class="slide level2">
 <h2><strong>ChiVes Data: Surface Temperature</strong></h2>
 
-<img data-src="ej-images/chives-temp.png" class="r-stretch quarto-figure-left"><p class="caption">Test</p></section>
+<img data-src="ej-images/chives-temp.png" class="r-stretch quarto-figure-left"><p class="caption">Average summer surface temperature in 2018, ranked by average temperature as a proxy for the urban heat island effect. (MODIS data, DePaul University)</p></section>
 <section id="chives-data-modeled-pm-2.5-pollution" class="slide level2">
 <h2>Chives Data: Modeled PM 2.5 Pollution</h2>
 
@@ -440,9 +439,47 @@
 <h2><strong>ChiVes Data: Species Diversity</strong></h2>
 
 <img data-src="ej-images/chives-species.png" class="r-stretch quarto-figure-left"><p class="caption">Diversity of plant species recorded by community science platform users in a block group. Measures are summarized as a Simpson index of diversity at the tract level. (Chicago Botanic Gardens)</p></section>
-<section id="dynamic-data-integration" class="slide level2">
-<h2>Dynamic Data Integration</h2>
-<p>Data for the main map must be</p>
+<section id="engaging-with-ej-communities-directly" class="slide level2">
+<h2>Engaging with EJ Communities Directly</h2>
+<p>Long process of trust-building, listening, and understanding.</p>
+<ul>
+<li><p>Adding new data based on focus groups and discussions</p></li>
+<li><p>Refining, editing, and upgrading existing features with sustainability in mind</p></li>
+<li><p>Co-designing new features &amp; approaches</p></li>
+<li><p>Developing an interactive index builder</p></li>
+</ul>
+</section>
+<section id="indices-for-all" class="slide level2">
+<h2>Indices for All</h2>
+
+<img data-src="ej-images/index.png" class="r-stretch"></section>
+<section id="weighting-indicators" class="slide level2">
+<h2>Weighting Indicators</h2>
+
+<img data-src="ej-images/choose-weights.png" class="r-stretch"></section>
+<section id="mapping-vulnerability" class="slide level2">
+<h2>Mapping Vulnerability</h2>
+
+<img data-src="ej-images/index-example.png" class="r-stretch"></section>
+<section id="partners-instituto-del-progreso-latino-peoples-response-network" class="slide level2">
+<h2>Partners: Instituto del Progreso Latino, People’s Response Network</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="index-img/inst.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="ej-images/prn.png"></p>
+</div>
+</div>
+</section>
+<section id="brainstorming-new-ways-to-bring-art-to-chives" class="slide level2">
+<h2>Brainstorming new ways to bring art to Chives</h2>
+
+<img data-src="index-img/art.jpg" class="r-stretch"></section>
+<section id="more-to-come-soon." class="slide level2">
+<h2>More to come soon.</h2>
+<p>The next Chives Release scheduled for <strong>September 2024</strong>.</p>
+<p>Questions? Email Marynia at mkolak@illinios.edu</p>
+<p>Thank you!</p>
 <div class="footer footer-default">
 
 </div>

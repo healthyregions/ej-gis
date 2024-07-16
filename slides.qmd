@@ -1,12 +1,12 @@
 ---
-title: "Extending EJ GIS with Decentralized, Open, & Community-Centered Design"
+title: ""
 format:
   revealjs: 
-    theme: dark
+    theme: solarized
 editor: visual
 ---
 
-## **Author Team**
+## **Integrating Chicago EJ Data, Researchers, and Communities with Decentralized Web Architecture, Open GIS, & Participatory Design**
 
 Marynia Kolak^1^, Jack Lia^1^, Jose Alavez^1^, Sara Lambert^2^, Adam Cox^1^, Susan Paykin^3^, Winifred Curran^4^, Michelle Stuhlmacher^4^
 
@@ -64,7 +64,7 @@ Marynia Kolak^1^, Jack Lia^1^, Jose Alavez^1^, Sara Lambert^2^, Adam Cox^1^, Sus
 :::
 :::
 
-## **Gaps, challenges, and critiques in current EJ GIS tool landscape**
+## **Challenges & critiques in current EJ tool landscape**
 
 *Fusi et al 2022:*
 
@@ -91,9 +91,7 @@ Marynia Kolak^1^, Jack Lia^1^, Jose Alavez^1^, Sara Lambert^2^, Adam Cox^1^, Sus
 -   Data Accessibility and Data Quality^6^
 
 ::: aside
-
 ^1^ Zrzavy et al. 2022; ^2^ Mullen et al. 2023, Faust 2021; ^3^ Williams et al. 2022, Faust et al. 2021; ^4^ Huynh et al 2024; ^5^ Bompoti et al. 2024, Lee 2021; ^6^ Fusi et al, Boda et al, Maantay et al, Nost et al. 2022, Sadd et al. 2015
-
 :::
 
 ## **Grand EJ tech system challenges**
@@ -106,14 +104,6 @@ Challenges:
 
 Modern web design using [service-oriented architecture]{.underline}, free and/or [open GIS]{.underline} tools, and [distributed data stream integration]{.underline} can be adapted to break free of many of these technical (and some of the "people") restrictions.
 
-## **Defining Terms**
-
--   [Service-oriented architecture]{.underline}: collection of smaller, moderately coupled services versus one single, unified application
-
--   [Open GIS]{.underline}: opensource applications make their source code freely available, and may include: mapping, spatial data wrangling, and/or complete GISystems & services
-
--   [Distributed data stream integration:]{.underline} data may be ingested from multiple sources dynamically
-
 ## **ChiVes: A Chicago EJ Application**
 
 A mapping & data collaborative linking dozens of environmental and socioeconomic indicators at the neighborhood level in Chicago with 2 main goals:
@@ -121,11 +111,27 @@ A mapping & data collaborative linking dozens of environmental and socioeconomic
 1.  Integrate Data & Insights from Existing Environment + Air Quality Projects
 2.  Enable Community Better Access, Use, and Generated Insights from the Data
 
-Integrated/refactored as a new application in 2022, pieced from prior projects.
+With a new tech approach, can we do EJ work better?
+
+#### Refactored as a new application in 2022, pieced from prior projects. Funded in late 2022 with support from NASA and DePaul collaboration.
+
+## Dynamic Data Integration
+
+**Adding data using central standards:**
+
+-   [Contributors]{.underline}: Aggregate to tract level, add (non-spatial) content to a Google Sheet. Write metadata using a template. Submit a Google Form.
+
+-   [Tech team:]{.underline} Review, integrate using a Google Sheet. Re-build app.
+
+**Access data viz with map or community snapshots, or:**
+
+-   Download as a CSV, Shapefile, or GeoJSON
+
+-   Data dictionary and detailed metadata on site
 
 ## **ChiVes Data: Surface Temperature**
 
-![Test](ej-images/chives-temp.png){fig-align="left"}
+![Average summer surface temperature in 2018, ranked by average temperature as a proxy for the urban heat island effect. (MODIS data, DePaul University)](ej-images/chives-temp.png){fig-align="left"}
 
 ## Chives Data: Modeled PM 2.5 Pollution
 
@@ -135,16 +141,50 @@ Integrated/refactored as a new application in 2022, pieced from prior projects.
 
 ![Diversity of plant species recorded by community science platform users in a block group. Measures are summarized as a Simpson index of diversity at the tract level. (Chicago Botanic Gardens)](ej-images/chives-species.png){fig-align="left"}
 
-## O
+## Engaging with EJ Communities Directly
 
-The original version included an interactive map with dynamic filter; community snapshots; and, a resource guide linking other relevant map apps and resources.
+Long process of trust-building, listening, and understanding.
 
-With support from NASA funding and DePaul partnership, we've since been:
-
--   Adding new data based on focus groups and community discussions
+-   Adding new data based on focus groups and discussions
 
 -   Refining, editing, and upgrading existing features with sustainability in mind
 
--   Co-designing new features with community organizations
+-   Co-designing new features & approaches
 
 -   Developing an interactive index builder
+
+## Indices for All
+
+![](ej-images/index.png)
+
+## Weighting Indicators
+
+![](ej-images/choose-weights.png)
+
+## Mapping Vulnerability
+
+![](ej-images/index-example.png)
+
+## Partners: Instituto del Progreso Latino, People's Response Network
+
+::: columns
+::: {.column width="50%"}
+![](index-img/inst.jpg)
+:::
+
+::: {.column width="50%"}
+![](ej-images/prn.png)
+:::
+:::
+
+## Brainstorming new ways to bring art to Chives
+
+![](index-img/art.jpg)
+
+## More to come soon.
+
+The next Chives Release scheduled for **September 2024**.
+
+Questions? Email Marynia at mkolak\@illinios.edu
+
+Thank you!

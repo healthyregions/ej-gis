@@ -103,7 +103,7 @@ Input variables. Run model(s). Derive index(ices) from output.
 
 ![Multi-step approach to identify counties with greatest vulnerability to rapid dissemination of injection drug use-associated HIV infection, if introduced, and new or continued Hepatitis C virus infections. From Van Handel, M. M., Rose, C. E., Hallisey, E. J., Kolling, J. L., Zibbell, J. E., Lewis, B., \... & Brooks, J. T. (2016). County-level vulnerability assessment for rapid dissemination of HIV or HCV infections among persons who inject drugs, United States. *JAIDS Journal of Acquired Immune Deficiency Syndromes*, *73*(3), 323-331.](index-img/handel.jpg)
 
-## US SDOH Multidimensional Indices 
+## US SDOH Multidimensional Indices
 
 ![Mapped SDOH Indices from Kolak, M., Bhatt, J., Park, Y. H., Padrón, N. A., & Molefe, A. (2020). Quantification of neighborhood-level social determinants of health in the continental United States. *JAMA network open*, 3(1), e1919928-e1919928.](index-img/sdoh.png)
 
@@ -115,7 +115,7 @@ Input variables. Run model(s). Derive index(ices) from output.
 
 ![](index-img/regress.jpg)
 
-## Spatial Scale & Geographer's Lament  
+## Spatial Scale & Geographer's Lament
 
 -   State and National-level comparison groups:
 
@@ -125,14 +125,12 @@ Input variables. Run model(s). Derive index(ices) from output.
 
     -   Utility of understanding state- and county-policies
 
-```{=html}
 <!-- -->
-```
+
 -   County-level indices will have limitations on interpretation at local scales.
 
-```{=html}
 <!-- -->
-```
+
 -   More local isn't always better: ACS block group margin of error are unstable and not recommended for analysis
 
 # You can't squeeze out more than you put in. 🍋
