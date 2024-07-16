@@ -20,18 +20,51 @@ Marynia Kolak^1^, Jack Lia^1^, Jose Alavez^1^, Sara Lambert^2^, Adam Cox^1^, Sus
 ^4^ Department of Geography, DePaul University
 :::
 
-## Introduction
+## What's the tech framework in which we do Environmental Justice?
 
-When you click the **Render** button a document will be generated that includes:
+-   Insights often communicated with maps, data summaries, figures & plots
 
--   Content authored with markdown
--   Output from executable code
+-   Used to better understand environmental challenges & advocate for improved policy and resources
 
-## Background
+-   Used by **communities impacted by environmental injustices**, as well as researchers & policy makers
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+-   Often made using top-down design and closed coding/tech infrastructures
 
-## **Gaps, challenges, and critiques in current EJ GIS toollandscape**
+## Place-based apps central to EJ work
+
+-   Used to determine root causes of injustices
+
+-   Incorporate grass-roots advocacy and community engaged connections
+
+-   GIS-based approaches common, but not always!
+
+-   Strong tradition of community-driven art & movements
+
+## EJ Fliers & Posters
+
+::: columns
+::: {.column width="50%"}
+![](index-img/flier.png)
+:::
+
+::: {.column width="50%"}
+![](index-img/poster.png)
+:::
+:::
+
+## EJ Maps & Dashboards
+
+::: columns
+::: {.column width="50%"}
+![](index-img/esri.png)
+:::
+
+::: {.column width="50%"}
+![](index-img/ejscreen.png)
+:::
+:::
+
+## **Gaps, challenges, and critiques in current EJ GIS tool landscape**
 
 *Fusi et al 2022:*
 
@@ -62,3 +95,56 @@ When you click the **Render** button a presentation will be generated that inclu
 ^1^ Zrzavy et al. 2022; ^2^ Mullen et al. 2023, Faust 2021; ^3^ Williams et al. 2022, Faust et al. 2021; ^4^ Huynh et al 2024; ^5^ Bompoti et al. 2024, Lee 2021; ^6^ Fusi et al, Boda et al, Maantay et al, Nost et al. 2022, Sadd et al. 2015
 
 :::
+
+## **Grand EJ tech system challenges**
+
+Challenges:
+
+-   *Technical:* Data Silos, Data Integration + Varying Standards, Technical system cost & complexity, Sustainability
+
+-   *People:* Disciplinary Silos & Hierarchies, Politics, Access to time, people, & technical resources
+
+Modern web design using [service-oriented architecture]{.underline}, free and/or [open GIS]{.underline} tools, and [distributed data stream integration]{.underline} can be adapted to break free of many of these technical (and some of the "people") restrictions.
+
+## **Defining Terms**
+
+-   [Service-oriented architecture]{.underline}: collection of smaller, moderately coupled services versus one single, unified application
+
+-   [Open GIS]{.underline}: opensource applications make their source code freely available, and may include: mapping, spatial data wrangling, and/or complete GISystems & services
+
+-   [Distributed data stream integration:]{.underline} data may be ingested from multiple sources dynamically
+
+## **ChiVes: A Chicago EJ Application**
+
+A mapping & data collaborative linking dozens of environmental and socioeconomic indicators at the neighborhood level in Chicago with 2 main goals:
+
+1.  Integrate Data & Insights from Existing Environment + Air Quality Projects
+2.  Enable Community Better Access, Use, and Generated Insights from the Data
+
+Integrated/refactored as a new application in 2022, pieced from prior projects.
+
+## **ChiVes Data: Surface Temperature**
+
+![Test](ej-images/chives-temp.png){fig-align="left"}
+
+## Chives Data: Modeled PM 2.5 Pollution
+
+![Annulized (average from 1 month of each season) ambient concentration of PM 2.5 from a 1.3 km WR-CMAQ model simulation](ej-images/chives-pm2.png){fig-align="left"}
+
+## **ChiVes Data: Species Diversity**
+
+![Diversity of plant species recorded by community science platform users in a block group. Measures are summarized as a Simpson index of diversity at the tract level. (Chicago Botanic Gardens)](ej-images/chives-species.png){fig-align="left"}
+
+## O
+
+The original version included an interactive map with dynamic filter; community snapshots; and, a resource guide linking other relevant map apps and resources.
+
+With support from NASA funding and DePaul partnership, we've since been:
+
+-   Adding new data based on focus groups and community discussions
+
+-   Refining, editing, and upgrading existing features with sustainability in mind
+
+-   Co-designing new features with community organizations
+
+-   Developing an interactive index builder
