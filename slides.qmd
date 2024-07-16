@@ -165,7 +165,7 @@ Long process of trust-building, listening, and understanding.
 
 ![](ej-images/index-example.png)
 
-## Partners: Instituto del Progreso Latino, People's Response Network
+# Partners: Instituto del Progreso Latino, People's Response Network
 
 ::: columns
 ::: {.column width="50%"}
